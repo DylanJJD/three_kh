@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+footer {
+	background: #333;
+	height: 200px;
+	margin-top: auto;
+}
+
+footer section {
+	margin: 0 auto;
+	width: 1200px;
+	padding: 41px 30px 0;
+}
+
+footer .footMenu {
+	border-bottom: 1px solid #484848;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+
+
+footer .footMenu ul {
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+	padding: 0;
+    margin: 0; 
+}
+
+footer .footMenu ul li {
+	float: left;
+	position: relative;
+	padding: 0 8px;
+}
+
+footer .footMenu ul li a {
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none; 
+}
+
+footer .footMenu ul li + li:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 4px;
+	width: 1px;
+	height: 15px;
+	background: #fff;
+}
+
+footer .footMenu ul li:first-child {
+    padding-left: 0;
+}
+
+footer .btnViewerDown {
+	display: inline-block;
+	margin-left: 13px;
+	position: relative;
+	vertical-align: middle;
+	width: 108px;
+	height: 16px;
+	padding: 9px 14px 7px;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+footer .btnViewerDown:after {
+	content: '';
+	position: absolute;
+	right: 14px;
+	top: 9px;
+	width: 14px;
+	height: 14px;
+	background: url('../images/common/bg_ico_bul02.png') no-repeat 0 0;
+}
+
+footer .btnCh {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 31px;
+	height: 32px;
+	background: url('../images/common/bg_btn_ch.png') no-repeat 0 0;
+}
+
+footer .footInfo {
+	padding-top: 20px;
+	position: relative;
+}
+
+footer .footInfo span {
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	padding-right: 12px;
+}
+
+footer .footInfo address {
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	padding-top: 9px;
+}
+
+footer .footInfo .selectSite {
+	position: absolute;
+	right: 0;
+	top: 22px;
+	width: 140px;
+}
+
+footer .footInfo .selectSite select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	width: 100%;
+	padding: 7px 14px;
+	letter-spacing: -0.65px;
+	font-size: 13px;
+	color: #999;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.15) url('../images/common/bg_select_arr01.png') no-repeat 90% center;
+}
+
+footer .footInfo .selectSite select::-ms-expand {
+	display: none;
+}
